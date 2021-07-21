@@ -1,0 +1,19 @@
+:root{
+    /* color */
+    --color--pink--dark:#ad1457;
+    --color--pink--default:#f06292;
+    --color--pink--light:#ffc1e3;
+    --color--yellow--dark:#ffa000;
+    --color--yellow--default:#ffc107;
+    --color--yellow--light:#fffd61;
+
+    --background--color--opacity: rgba(0, 0,0, 0.5);
+
+
+    /* size */
+    --percent100--width: 100%;
+    --percent100--height: 100%;
+    --container--height:900px;
+
+
+}

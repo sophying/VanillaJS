@@ -1,0 +1,98 @@
+@import url('./common.css');
+
+body{
+    /* 초기화 */
+    margin: 0 auto;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+}
+
+#container{
+    width: 100%;
+    height: var(--container--height);
+    margin: 0 auto; 
+    /* background-color: aquamarine; */
+    background-image: url(../img/main.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+
+#left__box{
+    width: 20%;
+    height: var(--percent100--height);
+    margin: 0;
+    background-color: var(--background--color--opacity);
+    float: left;
+}
+
+.contents{
+    display: block;
+    text-align: center;
+}
+
+#user__name{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+#timer{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#contact__me{
+    margin-top: 20px;
+}
+
+#profile{
+    width: 160px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: 120px;
+}
+
+#right__box{
+    width: 80%;
+    height: var(--percent100--height);
+    background-color: cadetblue;
+    margin: 0;
+    float: left;
+}
+
+#topMenu__items{
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 20px;
+    /* background-color: burlywood; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.topMenu__item{
+    width: 90px;
+    height: 30px;
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: blue;
+
+}
+
+#footer{
+    width: var(--percent100--width);
+    height: 50px;
+    clear: both;
+    background-color: coral;
+}

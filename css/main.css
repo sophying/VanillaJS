@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
-*{
+@import url('./common.css');
+body{
     margin: 0;
     padding: 0;
 }
 
 #container{
-    width: 100%;
-    height: 900px;
+    width: var(--percent100--width);
+    height: var(--container--height);
     margin: 0 auto;  /*가운데 정렬*/
 }
 
 #contents{
-    width: 100%;
-    height: 100%;
+    width: var(--percent100--width);
+    height: var(--percent100--height);
     background-color: rgba(0, 0,0, 0.3);
     background-image: url(../img/main.jpg);
     background-size: cover;
@@ -45,11 +46,11 @@ h1{
 }
 
 #content__userInfo{
-    width: 100%;
-    height: 100%;
+    width: var(--percent100--width);
+    height: var(--percent100--height);
     margin: 0 auto;
-    background-color: rgba(0, 0,0, 0.6);
     display: flex;
+    background-color: var(--background--color--opacity);
     flex-direction: column;
     justify-content: center;
 }
@@ -93,7 +94,7 @@ input[type='button']{
     margin-top: 20px;
     border-radius: 10px;
     color: #bbb7ad;
-    background-color: rgba(0, 0,0, 0.5);
+    background-color: var(--background--color--opacity);
     cursor: pointer;
 }
 
